@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return "https://getbook-zgmy.onrender.com";
+  return import.meta.VITE_API_URL;
 };
 
 export default getBaseUrl;
