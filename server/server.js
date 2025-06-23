@@ -17,7 +17,7 @@ import adminRoutes from "./src/stats/admin.js";
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://get-book-chi.vercel.app"],
+    origin: ["http://localhost:5173", "https://get-book-9d88tpx0n-shailendrasingh189s-projects.vercel.app"],
     credentials: true,
   })
 );
