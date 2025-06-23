@@ -42,9 +42,11 @@ const Footer = () => {
           </p>
           <div className="flex">
             <input
+            name="email"
               type="email"
               placeholder="Enter your email"
               className="w-full px-4 py-2 rounded-l-md text-black"
+              autoComplete="off"
             />
             <button className="bg-primary px-6 py-2 rounded-r-md hover:bg-primary-dark">
               Subscribe
